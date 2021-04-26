@@ -1,0 +1,120 @@
+.App {
+    text-align: center;
+}
+
+.App-logo {
+    animation: App-logo-spin infinite 20s linear;
+    height: 40vmin;
+}
+
+.App-header {
+    background-color: #282c34;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+}
+
+.App-link {
+    color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.genresLabel {
+    padding: 10px;
+    margin: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 18px;
+    color: blue;
+}
+
+.sortLabel {
+    padding: 10px;
+    margin: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 18px;
+    color: blue;
+}
+
+.search {
+    background-color: rgba(255, 235, 205, 0.596);
+    margin: 40px;
+    padding: 40px;
+    border-radius: 15px;
+}
+
+.searchButtonContainer {
+    margin: 10px;
+    padding: 10px;
+}
+
+.searchButton {
+    display: inline-block;
+    padding: 0.2em 1.45em;
+    margin: 0.1em;
+    border: 0.15em solid #CCCCCC;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Segoe UI', 'Roboto', sans-serif;
+    font-weight: 800;
+    color: #fffefe;
+    background-color: #3a3838;
+    text-align: center;
+    position: relative;
+    font-size: 20px;
+}
+
+.searchButton:hover {
+    border-color: #7a7a7a;
+}
+
+.searchButton:active {
+    background-color: #999999;
+}
+
+@media all and (max-width:30em) {
+    .searchButton {
+        display: block;
+        margin: 0.2em auto;
+    }
+}
+
+.bouncy {
+    animation: bouncy 5s infinite linear;
+    position: relative;
+}
+
+@keyframes bouncy {
+    0% {
+        top: 0em
+    }
+    40% {
+        top: 0em
+    }
+    43% {
+        top: -0.9em
+    }
+    46% {
+        top: 0em
+    }
+    48% {
+        top: -0.4em
+    }
+    50% {
+        top: 0em
+    }
+    100% {
+        top: 0em;
+    }
+}

@@ -1,0 +1,48 @@
+.displayappcard {
+    background-color: aliceblue;
+    border-radius: 15px;
+    margin: 30px;
+    padding: 10px;
+    border: 0.5px solid black;
+}
+
+.categoryContainer,
+.sizeContainer,
+.typeContainer,
+.contentRatingContainer,
+.lastUpdatedContainer {
+    background-color: lightslategray;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 5px;
+    margin: 5px;
+}
+
+.versionHolder {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 5px;
+    padding: 5px;
+    background-color: rgba(184, 221, 245, 0.562);
+    font-family: cursive;
+    color: blueviolet;
+}
+
+.RatReviews {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(216, 191, 216, 0.493);
+    padding: 5px;
+    margin: 5px;
+}
+
+.ratings {
+    margin: 5px;
+}
+
+.reviews {
+    margin: 5px;
+}
